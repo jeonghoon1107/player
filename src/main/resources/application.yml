@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: my-player
+  mvc:
+    staticPathPattern: /static/**
+server:
+  port: 8080

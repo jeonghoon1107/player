@@ -1,0 +1,16 @@
+.skip-module {
+    z-index:100;
+    font-size: 22px;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:60px;
+    margin:0 20px;
+    transition: transform .2s ease-in-out;
+    transform: translate3d(0,0,0);
+}
+
+.skip-counter{float:right;}
+.skip-counter em{color:#ffd200;font-style:normal;}
+.skip-button{cursor:pointer;float:right;color:#ffd200;background-color: rgba(0,0,0,0.4);padding:10px 20px;}
+.skip-button .skip{position:relative}
